@@ -12,9 +12,9 @@ export = {
   cli: {
     migrationsDir: 'src/database/migrations',
   },
-  synchronize: ({ force: false , alter : true }),
+  synchronize: ({ force: false, alter: true }),
   extra: {
     trustServerCertificate: true,
   }
-  
+
 };

@@ -11,13 +11,13 @@ import {
     UseGuards,
     UseInterceptors,
   } from '@nestjs/common'
-  import { CreateProductDto } from './dto/create-user-weight.dto'
   import { EntityId } from 'typeorm/repository/EntityId'
   import { plainToClass } from 'class-transformer'
-  import { UpdateProductDto } from './dto/update-user-weight.dto'
   import { DeleteResult } from 'typeorm/index'
 import { ProductService } from './product.service'
 import { Product } from './entity/product.entity'
+import { CreateProductDto } from './dto/create-product.dto'
+import { UpdateProductDto } from './dto/update-product.dto'
 //   import { JwtAuthGuard } from '../auth/guards/jwt-auth.guard'
   
   @UseInterceptors(ClassSerializerInterceptor)

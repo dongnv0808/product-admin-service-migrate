@@ -9,8 +9,8 @@ import databaseConfig from './config/database.config'
 import { LoggerModule } from './logger/logger.module'
 
 import { TypeOrmModule } from '@nestjs/typeorm'
-import { ProductHttpModule } from './product/product-http.module'
-import { Product } from './product/entity/product.entity'
+import { ProductHttpModule } from './products/product-http.module'
+import { Product } from './products/entity/product.entity'
 import { Attribute } from './attributes/entity/attribute.entity'
 import { AttributeHttpModule } from './attributes/attribute-http.module'
 
